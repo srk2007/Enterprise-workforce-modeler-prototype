@@ -356,7 +356,7 @@ def get_ordered_dimension_values(df_in: pd.DataFrame, row_dim: str):
 # -----------------------------
 st.markdown("""
 <div class="banner">
-    <div class="banner-title">Enterprise Workforce Scenario Modeler</div>
+    <div class="banner-title">Enterprise Cost and Workforce Navigatorr</div>
     <div class="banner-sub">Standard Chartered</div>
 </div>
 """, unsafe_allow_html=True)
