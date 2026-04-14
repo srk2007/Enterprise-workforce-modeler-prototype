@@ -2049,7 +2049,7 @@ with tab1:
     styled = (
         driver_df_display.style
         .apply(style_row, axis=1)
-        .applymap(colour_direction, subset=["Direction"])
+        .map(colour_direction, subset=["Direction"])
         .format({
             "Committed HC":     _fmt_hc_cell,
             "Non-Committed HC": _fmt_hc_cell,
